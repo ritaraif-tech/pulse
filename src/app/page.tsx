@@ -1,7 +1,5 @@
-export default function Home() {
-  return (
-    <main className="flex flex-1 items-center justify-center">
-      <p>This is my first app</p>
-    </main>
-  );
+import { DashboardView } from "@/components/views/dashboard-view"
+
+export default function Page() {
+  return <DashboardView />
 }
